@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='yoko',
+    maintainer='Takumi Yokoo',
     maintainer_email='pokemonnguu@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='a package for practice',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'talker = mypkg.talker:main',
         ],
     },
 )
