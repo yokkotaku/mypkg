@@ -1,5 +1,6 @@
 # mypkg
-
+[![test](https://github.com/yokkotaku/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/yokkotaku/mypkg/actions/workflows/test.yml)
+* これはROS2のパッケージなので、事前にROS2をインストールする必要がある。
 ## talker
 数字をカウントし、topic(countup)を通じてメッセージを送信する。
 
@@ -19,7 +20,8 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
-結果
+結果  
+端末２に表示される（端末１には何も表示されない）
 ```
 $ [INFO] [1704016475.666206381] [listener]: Listen: 3
   [INFO] [1704016476.139536989] [listener]: Listen: 4
@@ -55,3 +57,8 @@ $ ros2 launch mypkg talk_listen.launch.py
 ## テスト環境
 * Ubuntu22.04
 
+## 著作権・ライセンス
+* このソフトウェアパッケージは、3か条項BSDライセンスの下、再頒布および使用が許可されます.
+* このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
+	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+* © 2023 Takumi Yokoo
