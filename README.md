@@ -10,7 +10,7 @@ topic(countup)から送信されたメッセージを受信し、表示する。
 talkerとlistenerを同時に立ち上げることができる。
 
 ## 使用方法・実行結果
-* talker&listener
+* talker&listener  
 端末１側
 ```
 $ ros2 run mypkg talker
@@ -46,4 +46,12 @@ $ ros2 launch mypkg talk_listen.launch.py
 ...
 ```
 
+## 必要なソフトウェア
+* Python
+  * テスト済み: 3.7〜3.10
+* ROS2
+  * バージョン humble
+
+## テスト環境
+* Ubuntu22.04
 
