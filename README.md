@@ -8,6 +8,9 @@
 ## listener
 topic(countup)から送信されたメッセージを受信し、表示する。
 
+## topicの説明
+今回使用する/countupは、メッセージの型が16ビットの符号付き整数になっている。
+
 ## talk_listen.launch
 talkerとlistenerを同時に立ち上げることができる。
 
